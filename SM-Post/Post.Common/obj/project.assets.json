@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CQRS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "path": "../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CQRS.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jorge\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

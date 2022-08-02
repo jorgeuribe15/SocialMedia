@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bge7X4fhfOWoyYZ/F3UYhoQQ6brwvYaCRiYtXZ5cfXdBOahWMTEUy3ntnOi2Ckkza+xfnLzzLPGhkW+CwPE1AQ==",
+  "dgSpecHash": "CKBPdDV4PpiyILr675TLGOK+SGx/oOYa15wDUABjCxdM4mxm/vdTAB27Y8PWOvsw4+QZzx/3BwwZ4tlJKXna4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
   "expectedPackageFiles": [

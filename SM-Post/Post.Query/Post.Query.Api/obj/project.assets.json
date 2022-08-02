@@ -72,6 +72,57 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CQRS.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQRS.Core.dll": {}
+        }
+      },
+      "Post.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Common.dll": {}
+        }
+      },
+      "Post.Query.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        }
+      },
+      "Post.Query.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Query.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Query.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Query.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -200,10 +251,34 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+      "msbuildProject": "../../../CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+    },
+    "Post.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Post.Common/Post.Common.csproj",
+      "msbuildProject": "../../Post.Common/Post.Common.csproj"
+    },
+    "Post.Query.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Post.Query.Domain/Post.Query.Domain.csproj",
+      "msbuildProject": "../Post.Query.Domain/Post.Query.Domain.csproj"
+    },
+    "Post.Query.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Post.Query.Infrastructure/Post.Query.Infrastructure.csproj",
+      "msbuildProject": "../Post.Query.Infrastructure/Post.Query.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CQRS.Core >= 1.0.0",
+      "Post.Common >= 1.0.0",
+      "Post.Query.Domain >= 1.0.0",
+      "Post.Query.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -240,7 +315,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            },
+            "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Common\\Post.Common.csproj": {
+              "projectPath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Common\\Post.Common.csproj"
+            },
+            "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+              "projectPath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
+            },
+            "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

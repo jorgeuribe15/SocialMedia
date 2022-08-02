@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Post.Query.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Query.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Post.Query.Infrastructure.dll": {}
+        }
+      },
+      "CQRS.Core/1.0.0": {
+        "runtime": {
+          "CQRS.Core.dll": {}
+        }
+      },
+      "Post.Common/1.0.0": {
+        "dependencies": {
+          "CQRS.Core": "1.0.0"
+        },
+        "runtime": {
+          "Post.Common.dll": {}
+        }
+      },
+      "Post.Query.Domain/1.0.0": {
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Common": "1.0.0"
+        },
+        "runtime": {
+          "Post.Query.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Post.Query.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CQRS.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Post.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Post.Query.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cH9BQxjzySKSqnc4dhCA+sVT6Wbaf/CW3BT/9r1pNANAqKMFIbZRDDDagNdrP0zDcSQLgaa/BDy7+npXoklzTw==",
+  "dgSpecHash": "IekfCKeVBnH8vi9ht9Ot2pdOtmg37oJlweIU8I1VKMg37PPofs/Crw6ATkl8qaZxbAUQRdiLVgFRZvzYYO8OmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\UDEMY\\CQRS Net Kafka\\SocialMedia\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
   "expectedPackageFiles": [],
