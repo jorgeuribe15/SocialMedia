@@ -48,5 +48,13 @@ namespace CQRS.Core.Domain
         {
             ApplyChanges(@event, true);
         }
+
+        public void ReplayEvents(IEnumerable<BaseEvent> events)
+        {
+            foreach (var @event in events)
+            {
+                ApplyChanges(@event, false);
+            }
+        }
     }
 }
