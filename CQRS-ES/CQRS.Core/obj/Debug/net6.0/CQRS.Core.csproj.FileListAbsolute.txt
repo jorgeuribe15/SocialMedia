@@ -1,6 +1,5 @@
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.deps.json
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.dll
-C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\bin\Debug\net6.0\ref\CQRS.Core.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\bin\Debug\net6.0\CQRS.Core.pdb
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.AssemblyInfoInputs.cache
@@ -9,3 +8,5 @@ C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQR
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\ref\CQRS.Core.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.pdb
+C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\CQRS.Core.csproj.AssemblyReference.cache
+C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\CQRS-ES\CQRS.Core\obj\Debug\net6.0\refint\CQRS.Core.dll

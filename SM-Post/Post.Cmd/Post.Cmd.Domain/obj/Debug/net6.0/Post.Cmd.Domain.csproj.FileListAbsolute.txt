@@ -1,6 +1,5 @@
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\Post.Cmd.Domain.deps.json
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\Post.Cmd.Domain.dll
-C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\ref\Post.Cmd.Domain.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\Post.Cmd.Domain.pdb
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net6.0\Post.Cmd.Domain.csproj.AssemblyReference.cache
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net6.0\Post.Cmd.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,4 @@ C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\D
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\CQRS.Core.pdb
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net6.0\Post.Common.pdb
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net6.0\Post.Cmd.Domain.csproj.CopyComplete
+C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net6.0\refint\Post.Cmd.Domain.dll

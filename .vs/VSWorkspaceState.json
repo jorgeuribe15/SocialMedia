@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CQRS-ES",
+    "\\CQRS-ES\\CQRS.Core",
+    "\\CQRS-ES\\CQRS.Core\\Events",
+    "\\SM-Post",
+    "\\SM-Post\\Post.Cmd"
+  ],
+  "SelectedNode": "\\CQRS-ES\\CQRS.Core\\Events",
+  "PreviewInSolutionExplorer": false
+}

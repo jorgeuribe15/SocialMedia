@@ -4,7 +4,6 @@ C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Post.Query.Api.deps.json
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Post.Query.Api.runtimeconfig.json
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Post.Query.Api.dll
-C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\ref\Post.Query.Api.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Post.Query.Api.pdb
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -110,3 +109,4 @@ C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\UDEMY\CQRS Net Kafka\SocialMedia\SM-Post\Post.Query\Post.Query.Api\obj\Debug\net6.0\refint\Post.Query.Api.dll
