@@ -1,12 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CQRS-ES",
     "\\CQRS-ES\\CQRS.Core",
-    "\\CQRS-ES\\CQRS.Core\\Events",
+    "\\CQRS-ES\\CQRS.Core\\Commands",
+    "\\CQRS-ES\\CQRS.Core\\Infrastructure",
     "\\SM-Post",
-    "\\SM-Post\\Post.Cmd"
+    "\\SM-Post\\Post.Cmd",
+    "\\SM-Post\\Post.Cmd\\Post.Cmd.Api",
+    "\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands",
+    "\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure"
   ],
-  "SelectedNode": "\\CQRS-ES\\CQRS.Core\\Events",
+  "SelectedNode": "\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands",
   "PreviewInSolutionExplorer": false
 }
